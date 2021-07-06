@@ -1,0 +1,42 @@
+@import url(../css/components/banner.css);
+@import url(../css/components/card.css);
+
+/* Fonts and colors */
+body{
+  background: rgb(240,240,240);
+  color: rgb(30,30,30);
+  font-size: 18px;
+  font-family: Lato, sans-serif;
+  margin: 0px;
+  font-weight: lighter;
+}
+h1 {
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #6A71E1;
+}
+a {
+  color: #6A71E1;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+/* Custom design with classes */
+
+.btn-blue {
+  color: white;
+  background: #6772e5;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  border-radius: 4px;
+  padding: 15px 20px;
+}
+.btn-blue:hover {
+  background: #7795f8;
+  color: white;
+}
+
